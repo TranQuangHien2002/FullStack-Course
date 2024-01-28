@@ -1,0 +1,47 @@
+tạo floder server
+
+cd server
+
+npm init -y
+
+npm install express cors mysql2 
+-----------------------------------
+
+cd floder "name project"
+
+npx create-react-app client
+
+cd client
+
+npm start
+------------------------------------
+|server
+	|___node_modele
+	|___index.js
+	|___package-lock.json
+	|___packeage.json
+----------------------------------
+    cd server =>npm install --save-dev nodemon
+
+mở file package.json và sửa giống v
+{
+
+"name": "webapp",
+
+"version": "1.0.0",
+
+"description": "",
+
+"main": "index.js",
+
+"scripts": {
+
+"test": "echo \"Error: no test specified\" && exit 1",
+🆘 "start": "nodemon server.js"
+
+},
+
+-------------------------------------------------------
+cd server => npm install --save-dev sequelize-cli
+cd server => npx sequelize-cli init
+xóa folder migrations và seeders 
